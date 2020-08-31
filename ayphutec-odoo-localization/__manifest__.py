@@ -13,6 +13,7 @@
     'website': "https://ayphutec.com/",
     'application': 'true',
     'installable': 'true',
+    'auto_install': 'true',
     'maintainer': 'Christian M.',
     'license': 'Other proprietary',
 
@@ -20,7 +21,7 @@
     # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'module_category_localization',
-    'version': '0.2',
+    'version': '0.1.0',
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'account_accountant', 'hr', 'l10n_pe',],
