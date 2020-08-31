@@ -1,0 +1,1 @@
+# ayphutec-odoo-localization
