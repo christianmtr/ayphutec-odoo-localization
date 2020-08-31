@@ -13,7 +13,7 @@
     'website': "https://ayphutec.com/",
     'application': 'true',
     'installable': 'true',
-    'auto_install': 'true',
+    # 'auto_install': 'true',  # fails in odoo.sh
     'maintainer': 'Christian M.',
     'license': 'Other proprietary',
 
