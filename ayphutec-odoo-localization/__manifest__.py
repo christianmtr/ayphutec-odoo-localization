@@ -24,8 +24,7 @@
     'version': '0.1.0',
 
     # any module necessary for this one to work correctly
-    # 'depends': ['base', 'account_accountant', 'hr', 'l10n_pe',],
-    'depends': ['base', 'account', 'hr', 'l10n_pe',],
+    'depends': ['base', 'account_accountant', 'hr', 'l10n_pe',],
 
     # always loaded
     'data': [
