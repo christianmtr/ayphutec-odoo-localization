@@ -4,10 +4,7 @@
             <field name="name">ayphu_odoo_localization.report_fourtenn_one.tree</field>
             <field name="model">ayphu_odoo_localization.report_fourtenn_one</field>
             <field name="arch" type="xml">
-                <tree string="Report 14.01"
-                      decoration-info="state == 'draft'"
-                      decoration-muted="state == 'cancel'"
-                      js_class="account_tree">
+                <tree string="Report 14.01" js_class="account_tree">
                     <field name="journal_sub_type"/>
                     <field name="sequence" invisible="1"/>
                     <field name="invoice_date" string="Invoice Date"/>
