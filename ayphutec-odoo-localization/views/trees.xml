@@ -1,6 +1,6 @@
 <odoo>
     <data>
-        <record id="view_invoice_tree" model="ir.ui.view">
+        <record id="ayphu_odoo_localization.view_report_fourtenn_one_tree" model="ir.ui.view">
             <field name="name">ayphu_odoo_localization.report_fourtenn_one.tree</field>
             <field name="model">ayphu_odoo_localization.report_fourtenn_one</field>
             <field name="arch" type="xml">

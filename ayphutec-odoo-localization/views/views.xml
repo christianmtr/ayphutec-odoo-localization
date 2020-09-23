@@ -8,7 +8,7 @@
     <menuitem id="ayphutec-odoo-localization.accountant_menu_sunat_exports_1401"
         name="Formato 14.01"
         parent="accountant_menu_sunat_exports"
-        action="account.action_account_group_tree" />
+        action="ayphu_odoo_localization.view_report_fourtenn_one_tree" />
     
     <!-- Employee menu -->
     <menuitem id="ayphutec-odoo-localization.hr_menu_sunat_exports"
@@ -18,6 +18,6 @@
     <menuitem id="ayphutec-odoo-localization.hr_menu_sunat_exports_rrhh"
         name="Formato RR. HH."
         parent="hr_menu_sunat_exports"
-        action="account.action_account_group_tree" />
+        action="ayphu_odoo_localization.view_report_fourtenn_one_tree" />
   </data>
 </odoo>
