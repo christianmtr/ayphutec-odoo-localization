@@ -8,19 +8,30 @@
                       decoration-info="state == 'draft'"
                       decoration-muted="state == 'cancel'"
                       js_class="account_tree">
-                    <field name="name"/>
+                    <field name="journal_sub_type"/>
                     <field name="sequence" invisible="1"/>
-                    <field name="invoice_date" optional="show" invisible="context.get('default_type') not in ('out_invoice', 'out_refund','out_receipt')" string="Invoice Date"/>
-                    <field name="invoice_date_due" optional="show"/>
-                    <field name="amount_untaxed_signed" string="Tax Excluded" sum="Total" optional="show"/>
-                    <field name="amount_tax_signed" string="Tax" sum="Total" optional="hide"/>
-                    <field name="amount_total_signed" string="Total" sum="Total" optional="show"/>
-                    <field name="amount_residual_signed" string="Amount Due" sum="Amount Due" optional="show"/>
-                    <field name="currency_id" invisible="1"/>
-                    <field name="company_currency_id" invisible="1"/>
-                    <field name="state" optional="show"/>
-                    <field name="invoice_payment_state" optional="hide"/>
-                    <field name="type" invisible="context.get('default_type', True)"/>
+                    <field name="invoice_date" string="Invoice Date"/>
+                    <field name="invoice_date_due"/>
+                    <field name="document_type"/>
+                    <field name="journal_code"/>
+                    <field name="journal_sequence_number_next"/>
+                    <field name="identitication_type"/>
+                    <field name="partner_vat"/>
+                    <field name="partner_name"/>
+                    <field name="export_invoice_value"/>
+                    <field name="move_amount_untaxed"/>
+                    <field name="exonerated"/>
+                    <field name="unaffected"/>
+                    <field name="isc"/>
+                    <field name="igv"/>
+                    <field name="plastic_bag_tax"/>
+                    <field name="others"/>
+                    <field name="move_amount_total"/>
+                    <field name="exchange_rate"/>
+                    <field name="original_document_date"/>
+                    <field name="original_document_type"/>
+                    <field name="original_document_sequence"/>
+                    <field name="original_document_number"/>
                 </tree>
             </field>
         </record>
