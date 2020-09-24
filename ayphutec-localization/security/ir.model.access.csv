@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_ayphutec_localization.report_fourten_one,ayphutec_localization.report_fourten_one,model_ayphutec_localization.report_fourten_one,base.group_user,1,1,1,1
+access_ayphutec_localization_report_fourten_one,ayphutec_localization.report_fourten_one,model_ayphutec_localization_report_fourten_one,base.group_user,1,1,1,1
