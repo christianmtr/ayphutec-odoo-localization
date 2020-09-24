@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_ayphu_odoo_localization.report_fourtenn_one,ayphu_odoo_localization.report_fourtenn_one,model_ayphu_odoo_localization.report_fourtenn_one,base.group_user,1,1,1,1
+access_ayphu_odoo_localization_report_fourtenn_one,ayphu_odoo_localization.report_fourtenn_one,model_ayphu_odoo_localization_report_fourtenn_one,base.group_user,1,1,1,1
