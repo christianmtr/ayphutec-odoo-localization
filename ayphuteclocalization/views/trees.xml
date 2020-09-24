@@ -33,8 +33,26 @@
             </field>
         </record>
         <record model="ir.actions.act_window" id="ayphuteclocalization.view_report_fourtenn_one_tree">
-            <field name="name">ayphuteclocalization.reportfourtenone.tree</field>
+            <field name="name">Reporte 14.01</field>
             <field name="res_model">ayphuteclocalization.reportfourtenone</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+        <record id="ayphuteclocalization.view_ayphuteclocalization_view" model="ir.ui.view">
+            <field name="name">ayphuteclocalization.ayphuteclocalization.tree</field>
+            <field name="model">ayphuteclocalization.ayphuteclocalization</field>
+            <field name="arch" type="xml">
+                <tree string="Report 14.01">
+                    <field name="name"/>
+                    <field name="value"/>
+                    <field name="value2"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+        <record model="ir.actions.act_window" id="ayphuteclocalization.view_ayphuteclocalization_tree">
+            <field name="name">ayphuteclocalization.ayphuteclocalization.tree</field>
+            <field name="res_model">ayphuteclocalization.ayphuteclocalization</field>
             <field name="view_mode">tree</field>
         </record>
     </data>

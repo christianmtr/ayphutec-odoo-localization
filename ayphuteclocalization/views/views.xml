@@ -11,7 +11,8 @@
             id="ayphuteclocalization.accountant_menu_sunat_exports_1401_2"
             name="Formato 14.01 =)"
             parent="accountant_menu_sunat_exports"
-            groups="base.group_user" />
+            groups="base.group_user"
+            action="ayphuteclocalization.view_ayphuteclocalization_tree" />
         <menuitem
             id="ayphuteclocalization.accountant_menu_sunat_exports_1401"
             name="Formato 14.01"
@@ -30,7 +31,8 @@
             id="ayphuteclocalization.hr_menu_sunat_exports_rrhh_2"
             name="Formato RR. HH. =)"
             parent="hr_menu_sunat_exports"
-            groups="base.group_user" />
+            groups="base.group_user"
+            action="ayphuteclocalization.view_ayphuteclocalization_tree"  />
         <menuitem
             id="ayphuteclocalization.hr_menu_sunat_exports_rrhh"
             name="Formato RR. HH."
