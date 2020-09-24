@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Ayphutec Localization Old 2",
+    'name': "Ayphutec Localization",
 
     'summary': """
         Módulo contable y RR. HH. de AyphuTec para Perú.""",

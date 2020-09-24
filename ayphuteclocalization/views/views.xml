@@ -1,0 +1,41 @@
+<odoo>
+  <data>
+    <!-- Accounting menu -->
+    <menuitem 
+        id="ayphuteclocalization.accountant_menu_sunat_exports"
+        name="Sunat Exports"
+        parent="account_accountant.menu_accounting"
+        groups="base.group_user" />
+
+        <menuitem
+            id="ayphuteclocalization.accountant_menu_sunat_exports_1401_2"
+            name="Formato 14.01 =)"
+            parent="accountant_menu_sunat_exports"
+            groups="base.group_user" />
+        <menuitem
+            id="ayphuteclocalization.accountant_menu_sunat_exports_1401"
+            name="Formato 14.01"
+            parent="accountant_menu_sunat_exports"
+            action="ayphuteclocalization.view_report_fourtenn_one_tree"
+            groups="base.group_user" />
+
+    <!-- Employee menu -->
+    <menuitem
+        id="ayphuteclocalization.hr_menu_sunat_exports"
+        name="Sunat Exports"
+        parent="hr.menu_hr_root"
+        groups="base.group_user" />
+
+        <menuitem
+            id="ayphuteclocalization.hr_menu_sunat_exports_rrhh_2"
+            name="Formato RR. HH. =)"
+            parent="hr_menu_sunat_exports"
+            groups="base.group_user" />
+        <menuitem
+            id="ayphuteclocalization.hr_menu_sunat_exports_rrhh"
+            name="Formato RR. HH."
+            parent="hr_menu_sunat_exports"
+            action="ayphuteclocalization.view_report_fourtenn_one_tree"
+            groups="base.group_user" />
+  </data>
+</odoo>
