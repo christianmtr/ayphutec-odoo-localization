@@ -24,14 +24,15 @@
     'version': '0.1.0',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'account_accountant', 'hr', 'l10n_pe',],
+    # 'depends': ['base', 'account_accountant', 'hr', 'l10n_pe',],
+    'depends': ['base', 'account', 'hr', 'l10n_pe',],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
+        # 'views/trees.xml',
         'views/views.xml',
         'views/templates.xml',
-        'views/trees.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
