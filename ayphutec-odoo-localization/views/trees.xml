@@ -1,6 +1,7 @@
 <odoo>
     <data>
-        <!-- <record id="ayphutec-odoo-localization.view_report_fourtenn_one_tree" model="ir.ui.view">
+        <!-- <record id="ayphutec-odoo-localization.view_report_fourtenn_one_tree" model="ir.ui.view"> -->
+        <record id="ayphutec-odoo-localization.view_report_fourtenn_one_tree" model="ir.actions.act_window">
             <field name="name">ayphu_odoo_localization.report_fourtenn_one.tree</field>
             <field name="model">ayphu_odoo_localization.report_fourtenn_one</field>
             <field name="arch" type="xml">
@@ -31,11 +32,11 @@
                     <field name="original_document_number"/>
                 </tree>
             </field>
-        </record> -->
-        <record model="ir.actions.act_window" id="ayphutec-odoo-localization.view_report_fourtenn_one_tree">
+        </record>
+        <!-- <record model="ir.actions.act_window" id="ayphutec-odoo-localization.view_report_fourtenn_one_tree">
             <field name="name">ayphu_odoo_localization.report_fourtenn_one.tree</field>
             <field name="res_model">ayphu_odoo_localization.report_fourtenn_one</field>
             <field name="view_mode">tree</field>
-        </record>
+        </record> -->
     </data>
 </odoo>
