@@ -4,7 +4,8 @@
     <menuitem 
         id="ayphutec-odoo-localization.accountant_menu_sunat_exports"
         name="Sunat Exports"
-        parent="account_accountant.menu_accounting" />
+        parent="account_accountant.menu_accounting"
+        groups="base.group_user" />
 
         <menuitem
             id="ayphutec-odoo-localization.accountant_menu_sunat_exports_1401_2"
@@ -15,13 +16,15 @@
             id="ayphutec-odoo-localization.accountant_menu_sunat_exports_1401"
             name="Formato 14.01"
             parent="accountant_menu_sunat_exports"
-            action="ayphutec-odoo-localization.view_report_fourtenn_one_tree" />
+            action="ayphutec-odoo-localization.view_report_fourtenn_one_tree"
+            groups="base.group_user" />
 
     <!-- Employee menu -->
     <menuitem
         id="ayphutec-odoo-localization.hr_menu_sunat_exports"
         name="Sunat Exports"
-        parent="hr.menu_hr_root" />
+        parent="hr.menu_hr_root"
+        groups="base.group_user" />
 
         <menuitem
             id="ayphutec-odoo-localization.hr_menu_sunat_exports_rrhh_2"
@@ -32,6 +35,7 @@
             id="ayphutec-odoo-localization.hr_menu_sunat_exports_rrhh"
             name="Formato RR. HH."
             parent="hr_menu_sunat_exports"
-            action="ayphutec-odoo-localization.view_report_fourtenn_one_tree" />
+            action="ayphutec-odoo-localization.view_report_fourtenn_one_tree"
+            groups="base.group_user" />
   </data>
 </odoo>
