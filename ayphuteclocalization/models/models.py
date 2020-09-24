@@ -31,28 +31,28 @@ class reportfourtenone(models.Model):
     original_document_sequence = fields.Char(default='', compute='_get_values')
     original_document_number = fields.Char(default='', compute='_get_values')
 
-    @api.depends('account.move.invoice_date', 'account.move.invoice_date_due', 'account.journal.code', 'account.journal.sequence_number_next', 'res.partner.l10_latam_identification_type_id', 'res.partner.vat', 'res.partner.name', 'account.move.amount_untaxed', 'account.move.amount_by_group', 'account.move.amount_total')
+    @api.depends('move.invoice_date', 'move.invoice_date_due', 'journal.code', 'journal.sequence_number_next', 'res.partner.l10_latam_identification_type_id', 'res.partner.vat', 'res.partner.name', 'move.amount_untaxed', 'move.amount_by_group', 'move.amount_total')
     def _get_values(self):
         for record in self:
             record.journal_sub_type = '05'
             record.sequence = '0001'
-            record.invoice_date = record.account.move.invoice_date
-            record.invoice_date_due = record.account.move.invoice_date_due
+            record.invoice_date = record.move.invoice_date
+            record.invoice_date_due = record.move.invoice_date_due
             record.document_type = ''
-            record.journal_code = record.account.journal_code
-            record.journal_sequence_number_next = record.account.journal.sequence_number_next
+            record.journal_code = record.journal_code
+            record.journal_sequence_number_next = record.journal.sequence_number_next
             record.identitication_type = record.res.partner.l10_latam_identification_type_id
             record.partner_vat = record.res.partner.vat
             record.partner_name = record.res.partner.name
             record.export_invoice_value = ''
-            record.move_amount_untaxed = record.account.move.amount_untaxed
+            record.move_amount_untaxed = record.move.amount_untaxed
             record.exonerated = '0.00'
             record.unaffected = '0.00'
             record.isc = '0.00'
-            record.igv = record.account.move.amount_by_group
+            record.igv = record.move.amount_by_group
             record.plastic_bag_tax = '0.00'
             record.others = '0.00'
-            record.move_amount_total = record.account.move.amount_total
+            record.move_amount_total = record.move.amount_total
             record.exchange_rate = ''
             record.original_document_date = '//'
             record.original_document_type = ''
