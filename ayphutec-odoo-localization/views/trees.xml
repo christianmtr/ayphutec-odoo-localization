@@ -1,36 +1,41 @@
 <odoo>
     <data>
-        <record id="ayphutec-odoo-localization.view_report_fourtenn_one_tree" model="ir.ui.view">
-        <field name="name">ayphu_odoo_localization.report_fourtenn_one.tree</field>
-        <field name="model">ayphu_odoo_localization.report_fourtenn_one</field>
-        <field name="arch" type="xml">
-            <tree string="Report 14.01" js_class="account_tree">
-                <field name="journal_sub_type"/>
-                <field name="sequence" invisible="1"/>
-                <field name="invoice_date" string="Invoice Date"/>
-                <field name="invoice_date_due"/>
-                <field name="document_type"/>
-                <field name="journal_code"/>
-                <field name="journal_sequence_number_next"/>
-                <field name="identitication_type"/>
-                <field name="partner_vat"/>
-                <field name="partner_name"/>
-                <field name="export_invoice_value"/>
-                <field name="move_amount_untaxed"/>
-                <field name="exonerated"/>
-                <field name="unaffected"/>
-                <field name="isc"/>
-                <field name="igv"/>
-                <field name="plastic_bag_tax"/>
-                <field name="others"/>
-                <field name="move_amount_total"/>
-                <field name="exchange_rate"/>
-                <field name="original_document_date"/>
-                <field name="original_document_type"/>
-                <field name="original_document_sequence"/>
-                <field name="original_document_number"/>
-            </tree>
-        </field>
-    </record>
+        <!-- <record id="ayphutec-odoo-localization.view_report_fourtenn_one_tree" model="ir.ui.view">
+            <field name="name">ayphu_odoo_localization.report_fourtenn_one.tree</field>
+            <field name="model">ayphu_odoo_localization.report_fourtenn_one</field>
+            <field name="arch" type="xml">
+                <tree string="Report 14.01" js_class="account_tree">
+                    <field name="journal_sub_type"/>
+                    <field name="sequence" invisible="1"/>
+                    <field name="invoice_date" string="Invoice Date"/>
+                    <field name="invoice_date_due"/>
+                    <field name="document_type"/>
+                    <field name="journal_code"/>
+                    <field name="journal_sequence_number_next"/>
+                    <field name="identitication_type"/>
+                    <field name="partner_vat"/>
+                    <field name="partner_name"/>
+                    <field name="export_invoice_value"/>
+                    <field name="move_amount_untaxed"/>
+                    <field name="exonerated"/>
+                    <field name="unaffected"/>
+                    <field name="isc"/>
+                    <field name="igv"/>
+                    <field name="plastic_bag_tax"/>
+                    <field name="others"/>
+                    <field name="move_amount_total"/>
+                    <field name="exchange_rate"/>
+                    <field name="original_document_date"/>
+                    <field name="original_document_type"/>
+                    <field name="original_document_sequence"/>
+                    <field name="original_document_number"/>
+                </tree>
+            </field>
+        </record> -->
+        <record model="ir.actions.act_window" id="ayphutec-odoo-localization.view_report_fourtenn_one_tree">
+            <field name="name">ayphu_odoo_localization.report_fourtenn_one.tree</field>
+            <field name="res_model">ayphu_odoo_localization.report_fourtenn_one</field>
+            <field name="view_mode">tree</field>
+        </record>
     </data>
 </odoo>

@@ -1,11 +1,5 @@
 <odoo>
   <data>
-    <record model="ir.actions.act_window" id="ayphutec-odoo-localization.view_report_fourtenn_one_tree">
-      <field name="name">ayphu_odoo_localization.report_fourtenn_one.tree</field>
-      <field name="res_model">ayphu_odoo_localization.report_fourtenn_one</field>
-      <field name="view_mode">tree</field>
-    </record>
-
     <!-- Accounting menu -->
     <menuitem id="ayphutec-odoo-localization.accountant_menu_sunat_exports" name="Sunat Exports" parent="account_accountant.menu_accounting" />
         <menuitem id="ayphutec-odoo-localization.accountant_menu_sunat_exports_1401"
