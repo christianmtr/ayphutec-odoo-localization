@@ -10,11 +10,11 @@
             id="ayphutec-odoo-localization.accountant_menu_sunat_exports_1401_2"
             name="Formato 14.01 =)"
             parent="accountant_menu_sunat_exports" />
-        <menuitem
+        <!-- <menuitem
             id="ayphutec-odoo-localization.accountant_menu_sunat_exports_1401"
             name="Formato 14.01"
             parent="accountant_menu_sunat_exports"
-            action="view_report_fourtenn_one_tree" />
+            action="view_report_fourtenn_one_tree" /> -->
 
     <!-- Employee menu -->
     <menuitem
@@ -26,10 +26,10 @@
             id="ayphutec-odoo-localization.hr_menu_sunat_exports_rrhh_2"
             name="Formato RR. HH. =)"
             parent="hr_menu_sunat_exports" />
-        <menuitem
+        <!-- <menuitem
             id="ayphutec-odoo-localization.hr_menu_sunat_exports_rrhh"
             name="Formato RR. HH."
             parent="hr_menu_sunat_exports"
-            action="view_report_fourtenn_one_tree" />
+            action="view_report_fourtenn_one_tree" /> -->
   </data>
 </odoo>
