@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_ayphu-odoo-localization_ayphu-odoo-localization,ayphu-odoo-localization.ayphu-odoo-localization,model_ayphu-odoo-localization_ayphu-odoo-localization,base.group_user,1,1,1,1
+access_ayphutec-odoo-localization_ayphutec-odoo-localization,ayphutec-odoo-localization.ayphutec-odoo-localization,model_ayphutec-odoo-localization_ayphutec-odoo-localization,base.group_user,1,1,1,1
