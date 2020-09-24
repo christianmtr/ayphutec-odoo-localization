@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_ayphu-contable_ayphu-contable,ayphu-contable.ayphu-contable,model_ayphu-contable_ayphu-contable,base.group_user,1,1,1,1
+access_ayphu-odoo-localization_ayphu-odoo-localization,ayphu-odoo-localization.ayphu-odoo-localization,model_ayphu-odoo-localization_ayphu-odoo-localization,base.group_user,1,1,1,1
