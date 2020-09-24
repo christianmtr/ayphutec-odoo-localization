@@ -2,7 +2,7 @@
     <data>
         <record id="ayphutec-localization.view_report_fourtenn_one_view" model="ir.ui.view">
             <field name="name">ayphutec-localization.report_fourten_one.tree</field>
-            <field name="model">ayphutec-localization.report_fourten_one</field>
+            <field name="model">ayphutec_localization.report_fourten_one</field>
             <field name="arch" type="xml">
                 <tree string="Report 14.01">
                     <field name="journal_sub_type"/>
@@ -34,7 +34,7 @@
         </record>
         <record model="ir.actions.act_window" id="ayphutec-localization.view_report_fourtenn_one_tree">
             <field name="name">ayphutec-localization.report_fourten_one.tree</field>
-            <field name="res_model">ayphutec-localization.report_fourten_one</field>
+            <field name="res_model">ayphutec_localization.report_fourten_one</field>
             <field name="view_mode">tree</field>
         </record>
     </data>

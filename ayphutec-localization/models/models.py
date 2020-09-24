@@ -4,7 +4,7 @@ from odoo import models, fields, api
 
 
 class report_fourten_one(models.Model):
-    _name = 'ayphutec-localization.report_fourten_one'
+    _name = 'ayphutec_localization.report_fourten_one'
     _description = 'Reporte 14.01'
 
     journal_sub_type = fields.Char(default='05')
